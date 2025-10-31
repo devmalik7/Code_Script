@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flip a coin</title>
+    <meta name="description" content="Flip a coin simulator like Google">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="app" role="main">
+        <h1 class="title">Flip a coin</h1>
+
+        <section class="stage" aria-label="Coin flip area">
+            <div id="coin" class="coin" aria-hidden="true">
+                <div class="face heads" data-label="Heads">Heads</div>
+                <div class="face tails" data-label="Tails">Tails</div>
+            </div>
+        </section>
+
+        <div class="controls">
+            <button id="flipBtn" class="btn" type="button" aria-label="Flip the coin">Flip</button>
+        </div>
+
+        <p id="result" class="result" aria-live="polite" aria-atomic="true">Tap Flip to start</p>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
