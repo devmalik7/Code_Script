@@ -1,0 +1,77 @@
+# ----------------------------
+# Build folders
+# ----------------------------
+build/
+build-*/
+out/
+bin/
+obj/
+
+# Generated Qt / CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*.moc
+*.qrc.dep
+*.qm
+*.qmake.stash
+*.qmake.cache
+*.qtc_settings
+*.qtc_clangd
+.qm
+*_automoc.cpp
+
+# Qt Creator project files
+*.user
+*.pro.user
+*.qmlproject.user
+*.tags
+*.swp
+*.autosave
+*.creator
+*.creator.user
+
+# VS Code
+.vscode/
+.vscode-ipch/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+*.cache
+*.orig
+
+# Compiled object files & artifacts
+*.o
+*.obj
+*.dll
+*.exe
+*.pdb
+*.lib
+*.a
+*.so
+*.dylib
+
+# Python virtual envs (if used in repo)
+venv/
+.env/
+
+# Ignore test output
+test_output/
