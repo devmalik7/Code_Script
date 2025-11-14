@@ -51,9 +51,6 @@ pathfinding_visualizer/
 │   └── MainWindow.ui        
 ```
 
-> Icons are SVG files, recommended from **Lucide Icons** (MIT licensed).  
-> Place all SVGs in `ui/icons/` exactly matching the filenames above.
-
 ---
 
 ## 🛠️ Prerequisites
@@ -98,10 +95,10 @@ The grid updates visually using `Node` objects in a `QGraphicsScene`.
 
 ### Toolbar Controls
 
-- **Run** (`play.svg`)  
+- **Run** 
   Starts the selected algorithm on a background thread (`AlgorithmWorker`).
 
-- **Reset** (`reset.svg`)  
+- **Reset** 
   Clears all walls, visited cells, and path markings. Start/Target nodes return to defaults.
 
 - **Algorithm Selector**  
