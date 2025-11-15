@@ -1,5 +1,0 @@
-# Ignore Python virtual environments
-Python/venv/
-
-# Ignore __pycache__ folders
-**/__pycache__/
